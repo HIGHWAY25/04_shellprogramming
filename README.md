@@ -91,15 +91,15 @@
 6) 반복문: for 문, while 문
 
 	* for 문: for 문 + seq CMD
-		-for var in var_list
-		-do
-		-	statement
-		-done
+		for var in var_list
+		do
+			statement
+		done
 	* while 문: while 문 + continue/break/shift
-		-while 조건(condition)
-		-do
-		-	statement
-		-done
+		while 조건(condition)
+		do
+			statement
+		done
 7) 함수 
 	선언)
 		fun(){ CMD; CMD; }

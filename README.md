@@ -24,7 +24,7 @@
 	CMD(sort CMD, cut CMD, ....)
 	
 2) 쉘의 특성
-3) 
+
 	* Redirection(<, 0<, >, 1>, >>, 1>>, 2>, 2>>)
 	* Pipe(|)
 	* Variable

@@ -4,7 +4,6 @@
 
 1) 명령어
 	grep CMD
-	
 		# grep OPTIONS PATTERNS file1
 		OPTIONS: -i, -v, -l, -n, -r, -w
 		PATTERNS: *  .  ^root  root$ [abc]  [a-c]  [^a]

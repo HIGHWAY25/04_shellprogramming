@@ -49,7 +49,6 @@
 2. Shell Script/Shell Programming
 
 1) 프로그램 작성과 실행
-
 	# bash -x script.sh
 	# . ~/.bashrc
 	# vi script.sh ; chmod +x script.sh ; ./script.sh
@@ -57,17 +56,14 @@
 	[참고] 매직넘버(#!/bin/bash)
 
 2) 주석처리
-
 	* 한줄 주석	- #
 	* 여러줄 주석	- : << EOF ~ EOF
 	
 3) 입력 & 출력
-
 	출력: echo CMD, print f CMD
 	입력: read CMD
 
 4) 산술연산
-
 	더하기)expr 1 + 2
 	빼기	)expr 3 - 1
 	곱하기)expr 3 \* 3
@@ -75,7 +71,6 @@
 	나머지)expr 10 % 3
 	
 5) 조건문: if 문, case 문
-
 	* if 문
 		if 조건; then
 			statement1

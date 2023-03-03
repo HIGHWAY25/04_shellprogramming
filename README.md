@@ -60,10 +60,12 @@
 	* 여러줄 주석	- : << EOF ~ EOF
 	
 3) 입력 & 출력
+4) 
 	출력: echo CMD, print f CMD
 	입력: read CMD
 
 4) 산술연산
+5) 
 	더하기)expr 1 + 2
 	빼기	)expr 3 - 1
 	곱하기)expr 3 \* 3

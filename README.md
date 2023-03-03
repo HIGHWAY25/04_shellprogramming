@@ -4,6 +4,7 @@
 
 1) 명령어
 	grep CMD
+	
 		# grep OPTIONS PATTERNS file1
 		OPTIONS: -i, -v, -l, -n, -r, -w
 		PATTERNS: *  .  ^root  root$ [abc]  [a-c]  [^a]
@@ -23,6 +24,7 @@
 	CMD(sort CMD, cut CMD, ....)
 	
 2) 쉘의 특성
+3) 
 	* Redirection(<, 0<, >, 1>, >>, 1>>, 2>, 2>>)
 	* Pipe(|)
 	* Variable
@@ -47,6 +49,7 @@
 2. Shell Script/Shell Programming
 
 1) 프로그램 작성과 실행
+
 	# bash -x script.sh
 	# . ~/.bashrc
 	# vi script.sh ; chmod +x script.sh ; ./script.sh
@@ -54,14 +57,17 @@
 	[참고] 매직넘버(#!/bin/bash)
 
 2) 주석처리
+
 	* 한줄 주석	- #
 	* 여러줄 주석	- : << EOF ~ EOF
 	
 3) 입력 & 출력
+
 	출력: echo CMD, print f CMD
 	입력: read CMD
 
 4) 산술연산
+
 	더하기)expr 1 + 2
 	빼기	)expr 3 - 1
 	곱하기)expr 3 \* 3
@@ -69,6 +75,7 @@
 	나머지)expr 10 % 3
 	
 5) 조건문: if 문, case 문
+
 	* if 문
 		if 조건; then
 			statement1
@@ -85,6 +92,7 @@
 		esac
 	
 6) 반복문: for 문, while 문
+
 	* for 문: for 문 + seq CMD
 		for var in var_list
 		do
@@ -96,6 +104,7 @@
 			statement
 		done
 7) 함수 
+
 	선언)
 		fun(){ CMD; CMD; }
 		function fun { CMD; CMD; }
@@ -107,6 +116,7 @@
 	함수출력: echo $RET
 	
 8) I/O 리다이렉션과 자식 프로세스
+
 	for LINE in $(cat file1)
 	do
 		echo $LINE
@@ -124,14 +134,17 @@
 	done < file1 > file2
 		
 9) 시그널 제어(Signal Trap)
+
 	* 시그널 무시
 	* 시그널 받으면 개발자 원하는 동작
 	
 10) 디버깅
+
 	* bash -x script.sh
 	* bash -xv script.sh
 	
 11) 옵션처리
+
 	getopts CMD + while CMD + case CMD
 	(예) # ssh.sh -p 80 192.168.10.20
 	while getopts p: options

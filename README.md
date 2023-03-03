@@ -4,14 +4,17 @@
 
 1) 명령어
 	grep CMD
+	
 		# grep OPTIONS PATTERNS file1
 		OPTIONS: -i, -v, -l, -n, -r, -w
 		PATTERNS: *  .  ^root  root$ [abc]  [a-c]  [^a]
 	sed CMD
+	
 		p CMD) # sed -n '1,3p' /etc/hosts
 		d CMD) # sed '1,3d' /etc/hosts
 		s CMD) # sed -i '/main/s/192.168.10.10/192.168.10.20/' /etc/hosts
 	awk CMD
+	
 		# awk 'statement {action}' filename
 		# awk -F: '$3 >= 1000 && $3 <= 60000 {print $1}' /etc/passwd 
 		# df -h / | tail -1 | awk '{print $6}' | awk -F% '{print $1}'

@@ -79,7 +79,7 @@
 		else
 			statement3
 		fi
-	# case 문
+	* case 문
 		case VAR in
 			조건1) statement1 ;;
 			조건2) statement2 ;;
@@ -99,7 +99,6 @@
 			statement
 		done
 7) 함수 
-
 	선언)
 		fun(){ CMD; CMD; }
 		function fun { CMD; CMD; }
@@ -197,6 +196,7 @@ LV 작업
 --------------
 선택(ex: ...)
 -> 작업
+
 12) 파일이름 자동 변환 스크립트
 
 13) 환경 설정 스크립트

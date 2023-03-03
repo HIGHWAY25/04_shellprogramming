@@ -61,16 +61,16 @@
 	
 3) 입력 & 출력
 
-	출력: echo CMD, print f CMD
-	입력: read CMD
+	* 출력: echo CMD, print f CMD
+	* 입력: read CMD
 
 4) 산술연산
 
-	더하기)expr 1 + 2
-	빼기	)expr 3 - 1
-	곱하기)expr 3 \* 3
-	나누기)expr 10 / 2
-	나머지)expr 10 % 3
+	* 더하기)expr 1 + 2
+	* 빼기	)expr 3 - 1
+	* 곱하기)expr 3 \* 3
+	* 나누기)expr 10 / 2
+	* 나머지)expr 10 % 3
 	
 5) 조건문: if 문, case 문
 	* if 문
